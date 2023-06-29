@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Jogos</title>
+</head>
+
+<body>
+
+    <header>
+        <div id="Cabecalho">
+            <label class="nomeGame">Nome do jogo:</label>
+            <input type="text" id="textoJogo">
+
+            <button type="submit" id="buttonPesquisar" class="buttonPesquisar">Pesquisar</button>
+            <button id="modoTela" class="buttonMode">Modo escuro <i class="fa-solid fa-moon"></i></button>
+            <div>
+                <button type="submit" id="buttonAnterior" class="buttonAnte">Anterior</button>
+                <button type="submit" id="buttonProximo" class="buttonPro">Próximo</button>
+            </div>
+    </header>
+
+    <div id="informacoes" class="main">
+        <p class="generoJogo">Gênero: </p>
+        <p class="descricao">Descrição: </p>
+        <img id="gameImagem" src="" class="imagemJogo">
+        <p class="classificacao">Classificação: </p>
+        <p class="desenvolvedora">Desenvolvedora: </p>
+    </div>
+
+        <footer>
+            <label>Copyright © 2023 - Luis Antonio de Oliveira e Thiago de Alencar</label>
+        </footer>
+    <script src="main.js" type="module"></script>
+</body>
+
+</html>
